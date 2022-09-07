@@ -18,10 +18,16 @@ Que nuestros clientes puedan contar con un portal web transaccional con el cual 
 - Formularios de registro de visitantes.
 Actualemente estamos en un Proyecto de Desarrollo Web "Estrena" sobre una tienda Diegital. La empresa vende ropa casual para jóvenes y adultos. Buscamos que cada cliente encuentre en la pagina web la mejor alternativa para vestirse bien o dar el mejor regalo. Sus usuarios disfrutaran la experiencia de recorrer la pagina, observar y disfrutar todas las opciones de diseños en variedad de talles, colores y precios.
 
+
+TABLERO DE TRABAJO:
+https://trello.com/b/SZyCc8MX/proyecto-integrador
+
+
 PAGINAS DE REFERENCIA:
 - https://stockx.com/
 - https://www.mattelsa.net/
 - https://ilvento.life/
+
 
 EQUIPO:
 
