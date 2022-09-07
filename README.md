@@ -21,3 +21,5 @@ Actualemente estamos en un Proyecto de Desarrollo Web "Estrena" sobre una tienda
 EQUIPO:
 
 Daniel Ramirez: Hola, soy de Medellin, Colombia, soy administrador de negocios de profesion y especialista en gerencia de proyectos. Llevo mas de 10 años de experiencia en el area comercial.....pero muy seguramente despues de este curso enfocare mi carrera hacia la industria de TI.
+
+Fernado Diez: Soy de Meta, Salta provincia de Argentina, soy ing en sistemas, actualmente estoy a en la parte de calidad en el rubro petroquimico y con la capacitacion de este curso quiero volver a trabajar en programacion
