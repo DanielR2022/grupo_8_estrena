@@ -19,4 +19,5 @@ Que nuestros clientes puedan contar con un portal web transaccional con el cual 
 Actualemente estamos en un Proyecto de Desarrollo Web "Estrena" sobre una tienda Diegital. La empresa vende ropa casual para jóvenes y adultos. Buscamos que cada cliente encuentre en la pagina web la mejor alternativa para vestirse bien o dar el mejor regalo. Sus usuarios disfrutaran la experiencia de recorrer la pagina, observar y disfrutar todas las opciones de diseños en variedad de talles, colores y precios.
 
 EQUIPO:
+
 Daniel Ramirez: Hola, soy de Medellin, Colombia, soy administrador de negocios de profesion y especialista en gerencia de proyectos. Llevo mas de 10 años de experiencia en el area comercial.....pero muy seguramente despues de este curso enfocare mi carrera hacia la industria de TI.
