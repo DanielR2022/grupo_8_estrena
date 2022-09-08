@@ -27,6 +27,8 @@ PAGINAS DE REFERENCIA:
 - https://stockx.com/
 - https://www.mattelsa.net/
 - https://ilvento.life/
+- https://undefinedba.com/
+- https://saborstore.com/
 
 
 EQUIPO:
