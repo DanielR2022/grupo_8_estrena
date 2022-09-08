@@ -37,4 +37,4 @@ Daniel Ramirez: Hola, soy de Medellin, Colombia, soy administrador de negocios d
 
 Fernando Diez: Soy de Meta, Salta provincia de Argentina, soy ing en sistemas, actualmente estoy a en la parte de calidad en el rubro petroquimico y con la capacitacion de este curso quiero volver a trabajar en programacion
 
-Micaela kuznicov: Hola soy de Merlo, Buenos Aires, tengo un emprendimiento de ropa y anteriormente me dedicaba al diseño y armado de lenceria, no tengo ezperiencia programando pero quiero enfocarme en esto, me parece un rubro muy interesante del que quiero ser parte
+Micaela kuznicov: Hola soy de Merlo, Buenos Aires, tengo un emprendimiento de ropa y anteriormente me dedicaba al diseño y armado de lenceria, no tengo experiencia programando pero quiero enfocarme en esto, me parece un rubro muy interesante del que quiero ser parte
