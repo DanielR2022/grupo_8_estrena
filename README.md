@@ -1,22 +1,21 @@
 # grupo_8_estrena
 
 MISIÓN:
-Grupo 8 Estrena o por sus iniciales G8E, somos una empresa de Desarrollo de Web que brinda diferentes soluciones de tecnología para sus productos y servicios en linea.
+Grupo 8 Estrena o por sus iniciales G8E, somos una empresa de moda basados que usa su plataforma Web para entregar a nuestros clientes actuales y futuros la mejor experiencia al momento de escoger y comprar una prenda de vestir. La empresa vende ropa casual para jóvenes y adultos. Buscamos que cada cliente encuentre en la pagina web la mejor alternativa para vestirse bien o dar el mejor regalo. Nuestros usuarios disfrutaran la experiencia de recorrer la pagina, observar y disfrutar todas las opciones de diseños en variedad de talles, colores y precios.
 
 VISIÓN:
-Ser una empresa líder en Desarrollo de Web.
+Ser una empresa líder en el top of mind de nuestros consumidores de prendas de vestir.
 
 OBJETIVO:
-Ofrecer servicio de Análisis, Diseño y Desarrollo Web.
+Ofrecer moda en vestuario casual para jovenes que quieran verse bien y que quieran comprar su vestuario desde la facilidad de un equipo movil o desktop.
 
 OBJETIVOS ESPECÍFICOS:
-Que nuestros clientes puedan contar con un portal web transaccional con el cual puedan comercializar sus productos y servicios, el sitio entre otras funcionalidades puede incluir:
+Que nuestros clientes puedan acceder a nuestro portal web transaccional en el cual puedan ver y comprar nuestros productos, el sitio entre otras funcionalidades puede incluir:
 - E-comerce.
 - Control de ventas.
 - Control de stock, reporte de stock minimos, proximas compras.
 - Control de listas de precios.
 - Formularios de registro de visitantes.
-Actualemente estamos en un Proyecto de Desarrollo Web "Estrena" sobre una tienda Diegital. La empresa vende ropa casual para jóvenes y adultos. Buscamos que cada cliente encuentre en la pagina web la mejor alternativa para vestirse bien o dar el mejor regalo. Sus usuarios disfrutaran la experiencia de recorrer la pagina, observar y disfrutar todas las opciones de diseños en variedad de talles, colores y precios.
 
 
 TABLERO DE TRABAJO:
