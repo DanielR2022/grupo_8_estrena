@@ -4,3 +4,4 @@ Debemos juntarnos mas, el equipo tiene integrantes muy fuertes en diferentes con
 Debemos continuar expresando las ideas y puntos de vista de cada un@ ya que todos son constructivos.
 Debemos seguir con las ganas que tod@s tenemos de aportar al equipo y sacar un muy buen proyecto.
 Dejar pasar el tiempo sin trabajarle un poco cada dia al proyecto.
+En las reuniones cada uno debe exponer el avance que lleva de forma resumuida asi tenemos una vision global del avance en general del proyecto.
