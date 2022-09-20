@@ -28,6 +28,10 @@ app.get("/productCar", (req, res) => {
   res.sendFile(path.resolve("./views/productCar.html"));
 });
 
+app.get("/productDet", (req, res) => {
+  res.sendFile(path.resolve("./views/productDet.html"));
+});
+
 function login() {
   event.preventDefault();
   let userName = document.getElementById("userName").value;
