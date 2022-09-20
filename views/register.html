@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style-registro.css">
+  <title>Registrarse</title>
+</head>
+
+<body>
+  <header>
+
+  </header>
+  <main>
+
+
+    <form action="/registo" method="post">
+      <div class="contenedorRegistro">
+
+        <h1 class="titulo">Crear Cuenta</h1>
+
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+
+        <label for="tel">Telefono</label>
+        <input type="tel" name="tel" id="tel" placeholder="Telefono" required>
+
+        <label for="mail">E-mail</label>
+        <input type="email" name="mail" id="mail" placeholder="Mail" required>
+
+        <label for="contrasenia">Contraeña</label>
+        <input type="password" name="contrasenia" id="contrasenia" placeholder="Contraeña" required>
+
+        <label for="contrasenia">Confirmar Contraeña</label>
+        <input type="password" name="contrasenia" id="contrasenia" placeholder="Confirmar Contraeña" required>
+
+        <button type="submit" class="cuenta">Crear Cuenta</button>
+        <button type="reset" class="cuenta">Cancelar</button>
+
+        <p>O Crear Cuenta con: </p>
+
+        <button type="submit" class="redes">Facebook</button>
+        <button type="submit" class="redes">Google</button>
+        <button type="submit" class="redes">Twitter</button>
+
+
+      </div>
+    </form>
+
+
+  </main>
+</body>
+
+</html>
