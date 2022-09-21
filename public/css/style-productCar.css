@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #c8c7c2;
+    font-family: "Roboto", sans-serif;
+    background-image: url("https://media.revistagq.com/photos/5cd31334d1dca857dbc08fdd/16:9/w_2560%2Cc_limit/job%2520meeting.jpg");
+  }
+
+  @media (min-width: 361px) {
+    main {
+      margin: 10px;
+      margin-top: 10%;
+      width: 60%;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    main {
+      width: 50%;
+    }
+  }
+  @media (min-width: 1279px) {
+    main {
+      width: 40%;
+    }
+  }
