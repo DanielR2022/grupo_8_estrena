@@ -6,7 +6,6 @@
 }
 
 body {
-  
   background-image: url("../images/resumen-patron-piedra-natural-textura-fondo-marmol-negro-rojo_24076-338.jpg");
 }
 
@@ -162,13 +161,11 @@ main .product .info .price {
   font-size: 2rem;
   color: #0040ff;
 }
-
 main .product .info .botones {
   display: flex;
   gap: 5px;
   width: 100%;
 }
-
 main .product .info .botones .addcart {
   background-image: url("../images/maxresdefault.jpg");
   border: none;
@@ -255,4 +252,4 @@ main .product .info .botones .addcart {
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=style-product-det.css.map */

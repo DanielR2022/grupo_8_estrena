@@ -11,37 +11,46 @@
 
 <body>
   <header>
-
+    
   </header>
+
   <main>
-
-
     <form action="/login" method="post">
-      <div class="contenedorRegistro">
+      <div class="register-container">
 
-        <h1 class="titulo">Logueo</h1>
-
-        <label for="mail">E-mail</label>
-        <input type="email" name="mail" id="mail" placeholder="Mail" required>
-
-        <label for="contrasenia">Contraeña</label>
-        <input type="password" name="contrasenia" id="contrasenia" placeholder="Contraeña" required>
-
-        <button type="submit" class="cuenta">Ingresar</button>
-        <button type="reset" class="cuenta">Cancelar</button>
-
+        <h1 class="title">Login</h1>
+        <div class="inputs">
+          <label for="mail">E-mail</label>
+          <input type="email" name="mail" id="mail" placeholder="Mail" required>
+        </div>  
+        <div class="inputs">
+          <label for="password">Contraseña</label>
+          <input type="password" name="password" id="password" placeholder="Contraseña" required>
+        </div>
+        <div class="account-buttons">
+          <button type="reset" class="account res">Cancelar</button>
+          <button type="submit" class="account sub">Ingresar</button>
+        </div>
         <p>O Ingresar con: </p>
-
-        <button type="submit" class="redes">Facebook</button>
-        <button type="submit" class="redes">Google</button>
-        <button type="submit" class="redes">Twitter</button>
-
+        <div class="socialmedia-buttons">
+          <button type="submit" class="socialmedia">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png" alt="">
+          </button>
+          <button type="submit" class="socialmedia">
+            <img src="https://rotulosmatesanz.com/wp-content/uploads/2017/09/2000px-Google_G_Logo.svg_.png" alt="">
+          </button>
+          <button type="submit" class="socialmedia">
+            <img src="https://www.canaljesustv.com/wp-content/uploads/2016/06/twitter-round-logo-png-transparent-background-7.png" alt="">
+          </button>
+        </div>
 
       </div>
     </form>
-
-
   </main>
+
+  <footer>
+
+  </footer>
 </body>
 
 </html>
