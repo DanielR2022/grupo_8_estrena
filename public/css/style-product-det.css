@@ -6,11 +6,11 @@
 }
 
 body {
-  background-image: url("../images/resumen-patron-piedra-natural-textura-fondo-marmol-negro-rojo_24076-338.jpg");
+  background-image: url("../images/istockphoto-1141118259-170667a.jpg");
 }
 
 header {
-  background-color: #404040;
+  background-image:url("../images/papel-pintado-de-textura-de-papel-negro-42272-scaled.jpg");
 }
 header .header-container {
   display: flex;
@@ -21,7 +21,7 @@ header .header-container {
   padding: 0.5rem;
 }
 header .header-container .icon {
-  height: 2rem;
+  height: 2.5rem;
 }
 header .header-container .icon img {
   height: 100%;
@@ -92,7 +92,7 @@ main .product {
   background: white;
 }
 main .product .gallery {
-  width: 100%;
+  width: 50%;
   box-shadow: 0px 0px 20px 0px lightgrey;
   margin-bottom: 2rem;
 }
@@ -167,7 +167,7 @@ main .product .info .botones {
   width: 100%;
 }
 main .product .info .botones .addcart {
-  background-image: url("../images/maxresdefault.jpg");
+  background-image: url("../images/papel-pintado-de-textura-de-papel-negro-42272-scaled.jpg");
   border: none;
   width: 100%;
   padding: 1rem;
@@ -176,6 +176,10 @@ main .product .info .botones .addcart {
   color: white;
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+main .other{
+  color: white
 }
 
 @media (min-width: 800px) {
@@ -227,7 +231,7 @@ main .product .info .botones .addcart {
     flex-direction: column;
     justify-content: flex-start;
     padding: 1rem;
-    border: 1px solid gray;
+    border: 1px solid white;
     gap: 1rem;
     align-items: center;
     height: 650px;
@@ -236,7 +240,7 @@ main .product .info .botones .addcart {
   main .other .item {
     height: 10rem;
     width: 8rem;
-    background: gray;
+    background: white;
   }
   main .product {
     flex-direction: row;

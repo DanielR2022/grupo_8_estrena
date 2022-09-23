@@ -29,6 +29,7 @@ body {
   display: flex;
 }
 
+
 @media (min-width: 361px) {
   main {
     margin: 10px;
