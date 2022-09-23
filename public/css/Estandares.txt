@@ -1,0 +1,32 @@
+Nombres de las clases: lowercase (con "-" para seprara palabras)
+Nombres de los IDs: camelCase
+
+Escribir todos los nombres en ingles (EN)
+
+
+Tamaños de fuente
+1rem = 16px
+
+Normal: 1rem
+Grande: 1.5rem 
+Pequeño: 0.8rem
+
+
+Botones e Inputs
+
+Padding: 0.5rem
+Width: 100%
+
+
+Colores 
+
+Cuando se use el blanco:
+#F3E5F5
+
+Rojo
+Oscuro: #800000
+Claro: #853d3d
+
+Grises
+Oscuro: #202020
+Claro: #AAAAAA
