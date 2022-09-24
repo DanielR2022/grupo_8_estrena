@@ -1,3 +1,5 @@
+Importar a cada pagina el Css de la pagina y el css General para el header y el footer
+
 Nombres de las clases: lowercase (con "-" para seprara palabras)
 Nombres de los IDs: camelCase
 

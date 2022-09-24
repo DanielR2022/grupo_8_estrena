@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url("../images/istockphoto-1141118259-170667a.jpg");
+}
+
+header {
+  background-image:url("../images/papel-pintado-de-textura-de-papel-negro-42272-scaled.jpg");
+}
+header .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding: 0.5rem;
+}
+header .header-container .icon {
+  height: 2.5rem;
+}
+header .header-container .icon img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+header .header-container .controls .searchbar {
+  display: none;
+  height: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+header .header-container .controls .searchbar form {
+  height: 100%;
+}
+header .header-container .controls .searchbar form input {
+  height: 100%;
+}
+header .header-container .controls .searchbar form button {
+  height: 100%;
+}
+header .header-container .controls .searchbar form button img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+header .header-container .controls .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  height: 2rem;
+}
+header .header-container .controls .buttons button {
+  height: 100%;
+  background: none;
+  border: none;
+}
+header .header-container .controls .buttons button img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}

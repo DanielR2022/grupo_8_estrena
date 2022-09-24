@@ -1,0 +1,84 @@
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+main .filters {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 2rem 1rem;
+}
+main .filters .filters-title {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+main .filters .filter {
+  width: 100%;
+}
+main .filters .filter .filter-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+main .filters .filter .filter-space select {
+  padding: 1rem;
+  width: 100%;
+}
+main .content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+main .content .products-container {
+  width: 100%;
+  max-width: 1050px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2rem 1rem;
+  background-color: #ffffffa5;
+}
+main .content .products-container .product {
+  width: 300px;
+  text-decoration: none;
+  color: black;
+}
+main .content .products-container .product .product-image {
+  width: 100%;
+  height: 20rem;
+}
+main .content .products-container .product .product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+main .content .products-container .product .product-info {
+  width: 100%;
+  padding: 0 1rem;
+}
+main .content .products-container .product .product-info .name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+@media (min-width: 769px) {
+  main {
+    flex-direction: row;
+  }
+  main .filters {
+    width: 20%;
+  }
+  main .content {
+    width: 80%;
+  }
+}
+
+/*# sourceMappingURL=style-home.css.map */
