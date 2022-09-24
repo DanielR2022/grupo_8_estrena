@@ -44,12 +44,12 @@ main .content .products-container {
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 2rem 1rem;
-  background-color: #ffffffa5;
+  background-color: #0202028e;
 }
 main .content .products-container .product {
   width: 300px;
   text-decoration: none;
-  color: black;
+  color:rgba(255, 255, 255, 0.932);
 }
 main .content .products-container .product .product-image {
   width: 100%;

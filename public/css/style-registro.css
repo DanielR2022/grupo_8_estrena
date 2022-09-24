@@ -15,12 +15,12 @@ main form {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: #000000;
-  color: white;
+  background-color: #000000a1;
+  color: rgba(255, 250, 250, 0.986);
   width: 100%;
   padding: 2rem;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  box-shadow: 0px 0px 10px rgb(175, 9, 9);
   margin: 1rem;
 }
 
@@ -32,15 +32,15 @@ h1 {
 }
 
 input {
-  background-color: #d4d4d434;
+  background-color:rgba(255, 255, 255, 0.945);
   font-size: 1rem;
   border-radius: 5px;
-  color: white;
+  color: rgba(128, 128, 128, 0.596);
   margin: 1rem 0;
 }
 
 input::placeholder {
-  color: white;
+  color: rgba(255, 255, 255, 0.432);
 }
 
 input:focus {
@@ -66,7 +66,7 @@ input:invalid {
   padding: 0.5rem;
   color: white;
   border: none;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid rgba(138, 131, 131, 0.63);
 }
 
 .account-buttons {
