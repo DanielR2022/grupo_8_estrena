@@ -5,7 +5,8 @@ main {
 }
 main .filters {
   width: 100%;
-  background-color: white;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.589);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -13,6 +14,7 @@ main .filters {
   gap: 1rem;
   padding: 2rem 1rem;
 }
+ 
 main .filters .filters-title {
   width: 100%;
   font-size: 1.5rem;
@@ -28,6 +30,7 @@ main .filters .filter .filter-title {
 main .filters .filter .filter-space select {
   padding: 1rem;
   width: 100%;
+  color: gray
 }
 main .content {
   display: flex;

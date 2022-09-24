@@ -125,6 +125,7 @@ main .other .items .item {
   background: gray;
 }
 
+
 @media (min-width: 800px) {
   main {
     max-width: 1320px;
@@ -149,6 +150,7 @@ main .other .items .item {
     justify-content: space-evenly;
     width: 100%;
   }
+
   main .other .items .item {
     width: 30%;
   }
@@ -163,6 +165,8 @@ main .other .items .item {
   main .product .info .price {
     margin-bottom: 5rem;
   }
+
+  
 }
 /*# sourceMappingURL=style-product-det.css.map */
 
