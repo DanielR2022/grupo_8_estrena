@@ -1,18 +1,6 @@
 main {
   height: 100%;
 }
-main .other {
-  display: flex;
-  justify-content: space-between;
-  margin: 1rem;
-  padding: 1rem;
-  align-items: center;
-}
-main .other .item {
-  height: 10rem;
-  width: 8rem;
-  background: gray;
-}
 main .product {
   margin: 1rem;
   padding: 1rem;
@@ -24,7 +12,7 @@ main .product {
   background: white;
 }
 main .product .gallery {
-  width: 50%;
+  width: 100%;
   box-shadow: 0px 0px 20px 0px lightgrey;
   margin-bottom: 2rem;
 }
@@ -39,6 +27,7 @@ main .product .info {
   justify-content: center;
   align-items: flex-start;
   gap: 1rem;
+  width: 100%;
 }
 main .product .info .title {
   width: 100%;
@@ -72,7 +61,7 @@ main .product .info .units .unit-container {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 2rem;
+  gap: 0.5rem;
 }
 main .product .info .units .unit-container .selector {
   width: 5rem;
@@ -109,70 +98,59 @@ main .product .info .botones .addcart {
   font-size: 1.2rem;
   font-weight: bold;
 }
-
-main .other{
-  color: white
+main .other {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+main .other h3 {
+  margin: 1rem 0;
+}
+main .other .items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  gap: 1rem;
+}
+main .other .items .item {
+  height: 10rem;
+  width: 8rem;
+  width: 100%;
+  background: gray;
 }
 
 @media (min-width: 800px) {
-  header .header-container .controls {
-    display: flex;
-  }
-  header .header-container .controls .searchbar {
-    display: flex;
-  }
-  header .header-container .controls .searchbar form {
-    height: 100%;
-  }
-  header .header-container .controls .searchbar form input {
-    height: 100%;
-  }
-  header .header-container .controls .searchbar form button {
-    height: 100%;
-  }
-  header .header-container .controls .searchbar form button img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-  }
-  header .header-container .controls .buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
-    height: 2rem;
-  }
-  header .header-container .controls .buttons button {
-    height: 100%;
-    background: none;
-    border: none;
-  }
-  header .header-container .controls .buttons button img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-  }
-
   main {
     max-width: 1320px;
     margin: auto;
     display: flex;
+    flex-direction: column;
   }
   main .other {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     padding: 1rem;
+    margin: 1rem;
     border: 1px solid white;
     gap: 1rem;
     align-items: center;
-    height: 650px;
-    width: 200px;
+    width: 100%;
   }
-  main .other .item {
-    height: 10rem;
-    width: 8rem;
-    background: white;
+  main .other .items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  main .other .items .item {
+    width: 30%;
   }
   main .product {
     flex-direction: row;
@@ -180,12 +158,12 @@ main .other{
     align-items: flex-start;
   }
   main .product .info {
-    margin-top: 5rem;
     height: 100%;
   }
   main .product .info .price {
     margin-bottom: 5rem;
   }
 }
+/*# sourceMappingURL=style-product-det.css.map */
 
 /*# sourceMappingURL=style-product-det.css.map */
