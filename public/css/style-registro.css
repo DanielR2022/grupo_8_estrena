@@ -97,6 +97,7 @@ main form {
   box-shadow: 0px 0px 10px rgb(100, 100, 100);
   margin-top: 50vh;
   transform: translateY(-50%);
+  
 }
 
 p,
@@ -201,6 +202,7 @@ p {
   text-align: center;
 }
 
+}
 @media (min-width: 361px) {
   .contenedorRegistro {
     margin: 10px;
