@@ -5,3 +5,10 @@ Debemos continuar expresando las ideas y puntos de vista de cada un@ ya que todo
 Debemos seguir con las ganas que tod@s tenemos de aportar al equipo y sacar un muy buen proyecto.
 Dejar pasar el tiempo sin trabajarle un poco cada dia al proyecto.
 En las reuniones cada uno debe exponer el avance que lleva de forma resumuida asi tenemos una vision global del avance en general del proyecto.
+
+Retro Sprint2:
+Gracias al buen trabajo en equipo y distribucion de tareas logramos completar el sprint2.
+Notamos grandes capacidades de diseño y estetica en Micaela y Yediz.
+Notamos grandes capacidades de codigo en Juan y Fernando.
+Debemos reunirnos mas.
+Debemos compartir mas los avances y los errores que encontremos.
