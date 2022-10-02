@@ -1,51 +1,25 @@
-* {
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-}
-
-body {
-  background-color: #c8c7c2;
-  background-image: url("https://media.revistagq.com/photos/5cd31334d1dca857dbc08fdd/16:9/w_2560%2Cc_limit/job%2520meeting.jpg");
-}
-
-.title1{
-  display: flex;
+main {
+  height: 100%;
   width: 100%;
-  padding: 20px;
-  border: 5px;
-  text-align: center;
-}
-
-.logo{
-  display: flex;
-  width: 100%;
-  padding: 20px;
-  border: 5px;
-  text-align: center;
-}
-
-
-.product{
   display: flex;
 }
 
-
-@media (min-width: 361px) {
-  main {
-    margin: 10px;
-    margin-top: 10%;
-    width: 60%;
-  }
+main .box-title1 {
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid lightgrey;
+  color: #F3E5F5;
 }
 
-@media (min-width: 769px) {
-  main {
-    width: 50%;
+  main .box-title1 .title1 .title2{
+    color: #F3E5F5
+    
   }
-}
 
-@media (min-width: 1279px) {
-  main {
-    width: 40%;
-  }
-}
+
+  
+
