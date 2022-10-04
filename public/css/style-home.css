@@ -14,7 +14,7 @@ main .filters {
   gap: 1rem;
   padding: 2rem 1rem;
 }
- 
+
 main .filters .filters-title {
   width: 100%;
   font-size: 1.5rem;
@@ -30,7 +30,7 @@ main .filters .filter .filter-title {
 main .filters .filter .filter-space select {
   padding: 1rem;
   width: 100%;
-  color: gray
+  color: gray;
 }
 main .content {
   display: flex;
@@ -52,7 +52,7 @@ main .content .products-container {
 main .content .products-container .product {
   width: 300px;
   text-decoration: none;
-  color:rgba(255, 255, 255, 0.932);
+  color: rgba(255, 255, 255, 0.932);
 }
 main .content .products-container .product .product-image {
   width: 100%;
@@ -72,6 +72,24 @@ main .content .products-container .product .product-info .name {
   font-weight: bold;
 }
 
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+
+footer section {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer i {
+  color: #1259c3;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
 @media (min-width: 769px) {
   main {
     flex-direction: row;
@@ -81,6 +99,44 @@ main .content .products-container .product .product-info .name {
   }
   main .content {
     width: 80%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5%;
+  }
+
+  footer section {
+    width: 30%;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1279px) {
+  main {
+    flex-direction: row;
+  }
+  main .filters {
+    width: 20%;
+  }
+  main .content {
+    width: 80%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5%;
+  }
+
+  footer section {
+    width: 30%;
+    text-align: center;
+    margin-top: 10px;
   }
 }
 

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estrena - Una tienda prar ti</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style-home.css">
+  <link rel="stylesheet" href="/css/style-general.css">
+</head>
+
+<body>
+
+  <!-- se obtiene el Header de la carpeta Partials -->
+  <%- include("./partials/header") %>
+
+
+
+    <main>
+      <div class="filters">
+        <div class="filters-title">
+          Filtros
+        </div>
+        <div class="filter">
+          <div class="filter-title">Precio</div>
+          <div class="filter-space">
+            <select name="price" id="price">
+              <option value="0">Precio</option>
+              <option value="1">Menos de $10.000</option>
+              <option value="2"> Hasta $15.000 </option>
+              <option value="3">$15.000 o mas</option>
+            </select>
+          </div>
+        </div>
+        <div class="filter">
+          <div class="filter-title">Talles</div>
+          <div class="filter-space">
+            <select name="price" id="price">
+              <option value="0">Talles</option>
+              <option value="1">S/L</option>
+              <option value="2">L/XL</option>
+              <option value="3">2XL/4XL</option>
+            </select>
+          </div>
+        </div>
+        <div class="filter">
+          <div class="filter-title">Producto</div>
+          <div class="filter-space">
+            <select name="price" id="price">
+              <option value="0">Productos</option>
+              <option value="1">Puffers</option>
+              <option value="2">Sweaters</option>
+              <option value="3">Pants</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="products-container">
+          <a class="product" href="#">
+            <div class="product-image">
+              <img src="/images/campera-puff1.jpg" alt="">
+            </div>
+            <div class="product-info">
+              <div class="name">Death Puff</div>
+              <div class="price">$22,000.00</div>
+            </div>
+          </a>
+          <a class="product" href="#">
+            <div class="product-image">
+              <img src="/images/campera-cuero.jpg" alt="">
+            </div>
+            <div class="product-info">
+              <div class="name">Killer Jacket</div>
+              <div class="price">$35,000.00</div>
+            </div>
+          </a>
+          <a class="product" href="#">
+            <div class="product-image">
+              <img src="/images/campera-puff2.jpg" alt="">
+            </div>
+            <div class="product-info">
+              <div class="name">Sky Puff</div>
+              <div class="price">$22,000.00</div>
+            </div>
+          </a>
+          <a class="product" href="#">
+            <div class="product-image">
+              <img src="/images/pantalon.jpg" alt="">
+            </div>
+            <div class="product-info">
+              <div class="name">Scream Pants</div>
+              <div class="price">$15,990.00</div>
+            </div>
+          </a>
+          <a class="product" href="#">
+            <div class="product-image">
+              <img src="/images/bermuda.jpg" alt="">
+            </div>
+            <div class="product-info">
+              <div class="name">Bermuda Goth</div>
+              <div class="price">$9,990.00</div>
+            </div>
+          </a>
+          <a class="product" href="#">
+            <div class="product-image">
+              <img src="/images/puas.jpg" alt="">
+            </div>
+            <div class="product-info">
+              <div class="name">Spikes Pants</div>
+              <div class="price">$15,990.00</div>
+            </div>
+          </a>
+          <a class="product" href="#">
+            <div class="product-image">
+              <img src="/images/sweater2.jpg" alt="">
+            </div>
+            <div class="product-info">
+              <div class="name">Line Sweater</div>
+              <div class="price">$14,000.00</div>
+            </div>
+          </a>
+          <a class="product" href="#">
+            <div class="product-image">
+              <img src="/images/sweater.jpg" alt="">
+            </div>
+            <div class="product-info">
+              <div class="name">Skull Sweater</div>
+              <div class="price">$14,000.00</div>
+            </div>
+          </a>
+          <a class="product" href="#">
+            <div class="product-image">
+              <img src="images/reme.jpg" alt="">
+            </div>
+            <div class="product-info">
+              <div class="name">Bad T-Shirt</div>
+              <div class="price">$8,990.00</div>
+            </div>
+          </a>
+        </div>
+        <div class="paginator">
+          Un paginador
+        </div>
+      </div>
+    </main>
+
+    <!-- se obtiene el footer de la carpeta Partials -->
+    <%- include("./partials/footer") %>
+
+</body>
+
+
+
+</html>

@@ -95,11 +95,68 @@ header .header-container .controls .buttons button img {
   filter: invert(1);
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 5%;
+  background-color: black;
+  justify-content: space-between;
+  color: white;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+footer section img {
+  width: 100%;
+}
+footer section {
+  width: 30%;
+  text-align: center;
+  margin-top: 10px;
+}
+
 @media (min-width: 361px) {
   header .header-container .controls .searchbar {
     display: block;
   }
+  footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 5%;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 769px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 5%;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1279px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 5%;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 1.5rem;
+  }
 }
