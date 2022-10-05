@@ -10,6 +10,7 @@ Tamaños de fuente
 1rem = 16px
 
 Normal: 1rem
+Medio Grande: 1.2rem
 Grande: 1.5rem 
 Pequeño: 0.8rem
 
@@ -32,3 +33,7 @@ Claro: #853d3d
 Grises
 Oscuro: #202020
 Claro: #AAAAAA
+
+Negro
+Black
+Traslucido :#000000a1

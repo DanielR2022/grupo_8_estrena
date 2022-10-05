@@ -16,7 +16,7 @@ main form {
   flex-direction: column;
   justify-content: flex-start;
   background-color: #000000a1;
-  color: rgba(255, 250, 250, 0.986);
+  color: #F5F5F5;
   width: 100%;
   padding: 2rem;
   border-radius: 10px;
