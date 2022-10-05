@@ -1,10 +1,14 @@
 const controller = {
-  productCar: (req, res) => {
-    res.render("products/productCar");
+  productCart: (req, res) => {
+    res.render("products/product-cart");
   },
 
   productDet: (req, res) => {
-    res.render("products/productDet");
+    res.render("products/product-detail");
+  },
+
+  productCre: (req, res) => {
+    res.render("products/product-creation");
   },
 };
 

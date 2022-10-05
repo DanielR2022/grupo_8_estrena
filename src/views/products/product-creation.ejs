@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estrena</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style-product-creation.css">
+  <link rel="stylesheet" href="/css/style-general.css">
+</head>
+
+<body>
+  <!-- se obtiene el header de la carpeta  Partials -->
+  <%- include("../partials/header") %>
+
+    <main>
+      <div class="product">
+        <div class="gallery">
+          <img src="/images/f4de964710087fc0e9f0ddf5f0c4d5e5.jpg" alt="">
+        </div>
+        <div class="info">
+          <h1 class="title">Remera oversize</h1>
+          <div class="description">
+            Diseños de autor/
+            tela: jersey rallado
+          </div>
+
+          <div class="price">
+            $4.599,00
+          </div>
+          <div class="sizes">
+            <h3>Tallas:</h3>
+            <div class="selector">
+              <select name="" id="">
+                <option value="">XS</option>
+                <option value="">S</option>
+                <option value="">M</option>
+                <option value="">L</option>
+                <option value="">XL</option>
+                <option value="">2XL</option>
+                <option value="">3XL</option>
+                <option value="">4XL</option>
+              </select>
+            </div>
+          </div>
+          <div class="units">
+            <h3>Unidades:</h3>
+            <div class="unit-container">
+              <div class="selector">
+                <input type="number" placeholder="0" value="0">
+              </div>
+              <div class="avaliable">
+                ¡5 unidades disponibles!
+              </div>
+            </div>
+          </div>
+          <div class="botones">
+            <button class="addcart">
+              Añadir al carrito
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="other">
+        <h3>Otros productos</h3>
+        <div class="items">
+          <div class="item">
+          </div>
+          <div class="item">TyP</div>
+          <div class="item">TyP</div>
+        </div>
+      </div>
+    </main>
+
+    <!-- se obtiene el footer de la carpeta Partials -->
+    <%- include("../partials/footer") %>
+
+</body>
+
+</html>
