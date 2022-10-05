@@ -23,7 +23,7 @@ Width: 100%
 Colores 
 
 Cuando se use el blanco:
-#F3E5F5
+#F5F5F5
 
 Rojo
 Oscuro: #800000

@@ -64,7 +64,7 @@ input:invalid {
 .inputs input {
   width: 100%;
   padding: 0.5rem;
-  color: white;
+  color: #F5F5F5;
   border: none;
   border-bottom: 1px solid rgba(138, 131, 131, 0.63);
 }
@@ -75,7 +75,7 @@ input:invalid {
   gap: 1rem;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #F5F5F5;
 }
 
 .account {
@@ -87,18 +87,18 @@ input:invalid {
 
 .account.res {
   background-color: transparent;
-  color: white;
-  border: 1px solid white;
+  color: #F5F5F5;
+  border: 1px solid #F5F5F5;
 }
 
 .account.sub {
   background-color: #800000;
-  color: white;
+  color: #F5F5F5;
   border: 1px solid transparent;
 }
 
 .account:hover {
-  background-color: white;
+  background-color: #F5F5F5;
   color: black;
   border: 1px solid transparent;
 }

@@ -102,7 +102,7 @@ footer {
   padding: 5%;
   background-color: black;
   justify-content: space-between;
-  color: white;
+  color: #F5F5F5;
   width: 100%;
   font-size: 1.5rem;
 }
@@ -127,7 +127,7 @@ footer section {
     justify-content: space-between;
     padding: 5%;
     background-color: black;
-    color: white;
+    color: #F5F5F5;
     width: 100%;
     font-size: 1.5rem;
   }
@@ -141,7 +141,7 @@ footer section {
     justify-content: space-between;
     padding: 5%;
     background-color: black;
-    color: white;
+    color: #F5F5F5;
     width: 100%;
     font-size: 1.5rem;
   }
@@ -155,7 +155,7 @@ footer section {
     justify-content: space-between;
     padding: 5%;
     background-color: black;
-    color: white;
+    color: #F5F5F5;
     width: 100%;
     font-size: 1.5rem;
   }

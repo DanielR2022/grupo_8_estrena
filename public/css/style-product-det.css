@@ -9,7 +9,7 @@ main .product {
   align-items: center;
   justify-content: center;
   border: 1px solid lightgrey;
-  background: white;
+  background: #F5F5F5;
 }
 main .product .gallery {
   width: 100%;
@@ -94,7 +94,7 @@ main .product .info .botones .addcart {
   padding: 1rem;
   text-align: center;
   text-transform: uppercase;
-  color: white;
+  color: #F5F5F5;
   font-size: 1.2rem;
   font-weight: bold;
 }
@@ -103,7 +103,7 @@ main .other {
   justify-content: space-between;
   padding: 1rem;
   align-items: center;
-  color: white;
+  color: #F5F5F5;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -139,7 +139,7 @@ main .other .items .item {
     justify-content: flex-start;
     padding: 1rem;
     margin: 1rem;
-    border: 1px solid white;
+    border: 1px solid #F5F5F5;
     gap: 1rem;
     align-items: center;
     width: 100%;
