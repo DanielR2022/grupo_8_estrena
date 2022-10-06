@@ -18,6 +18,7 @@ body {
 header {
   background-image: url("../images/papel-pintado-de-textura-de-papel-negro-42272-scaled.jpg");
 }
+
 header .header-container {
   display: flex;
   justify-content: space-between;
