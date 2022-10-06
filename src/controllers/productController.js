@@ -10,6 +10,10 @@ const controller = {
   productCre: (req, res) => {
     res.render("products/product-creation");
   },
+
+  productEdi: (req, res) => {
+    res.render("products/product-edition");
+  },
 };
 
 module.exports = controller;

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estrena</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style-product-edition.css">
+  <link rel="stylesheet" href="/css/style-general.css">
+</head>
+
+<body>
+  <!-- se obtiene el header de la carpeta  Partials -->
+  <%- include("../partials/header") %>
+
+    <main>
+      <form method="" class="product-edition">
+        <div class="inputs-container">
+          <div class="title">Edicion de producto</div>
+          <div class="info-input">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" placeholder="Nombre de Producto">
+          </div>
+          <div class="info-input">
+            <label for="description">Descripcion</label>
+            <textarea type="text" name="description" id="description" placeholder="Descripcion de Producto"></textarea>
+          </div>
+          <div class="info-input">
+            <label for="image">Imagen</label>
+            <input type="file" id="image" name="image" accept="image/*">
+          </div>
+          <div class="info-input">
+            <label for="category">Categoria</label>
+            <select name="category" id="category">
+              <option value="0">Masculina</option>
+              <option value="1">Femenina</option>
+              <option value="2">Impermeable</option>
+              <option value="3">Sudadera</option>
+            </select>
+          </div>
+          <div class="info-input">
+            <label for="size">Talla</label>
+            <select name="size" id="size">
+              <option value="0">XS</option>
+              <option value="1">S</option>
+              <option value="2">M</option>
+              <option value="3">L</option>
+            </select>
+          </div>
+          <div class="info-input">
+            <label for="color">Color</label>
+            <select name="color" id="color">
+              <option value="0">Blanco</option>
+              <option value="1">Negro</option>
+              <option value="2">Rojo</option>
+              <option value="3">Amarillo</option>
+            </select>
+          </div>
+          <div class="info-input">
+            <label for="price">Precio</label>
+            <input type="number" name="price" id="price">
+          </div>
+          <div class="submit-button">
+            <button type="submit">
+              Guardar cambios
+            </button>
+          </div>
+        </div>
+      </form>  
+    </main>
+
+    <!-- se obtiene el footer de la carpeta Partials -->
+    <%- include("../partials/footer") %>
+
+</body>
+
+</html>

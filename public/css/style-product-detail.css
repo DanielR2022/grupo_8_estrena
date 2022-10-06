@@ -107,6 +107,7 @@ main .other {
   display: flex;
   flex-direction: column;
   width: 100%;
+  background-color: #000000a1;
 }
 main .other h3 {
   margin: 1rem 0;
@@ -139,7 +140,6 @@ main .other .items .item {
     justify-content: flex-start;
     padding: 1rem;
     margin: 1rem;
-    border: 1px solid #F5F5F5;
     gap: 1rem;
     align-items: center;
     width: 100%;
