@@ -60,87 +60,32 @@
       </div>
       <div class="content">
         <div class="products-container">
-          <a class="product" href="#">
-            <div class="product-image">
-              <img src="/images/campera-puff1.jpg" alt="">
-            </div>
-            <div class="product-info">
-              <div class="name">Death Puff</div>
-              <div class="price">$22,000.00</div>
-            </div>
-          </a>
-          <a class="product" href="#">
-            <div class="product-image">
-              <img src="/images/campera-cuero.jpg" alt="">
-            </div>
-            <div class="product-info">
-              <div class="name">Killer Jacket</div>
-              <div class="price">$35,000.00</div>
-            </div>
-          </a>
-          <a class="product" href="#">
-            <div class="product-image">
-              <img src="/images/campera-puff2.jpg" alt="">
-            </div>
-            <div class="product-info">
-              <div class="name">Sky Puff</div>
-              <div class="price">$22,000.00</div>
-            </div>
-          </a>
-          <a class="product" href="#">
-            <div class="product-image">
-              <img src="/images/pantalon.jpg" alt="">
-            </div>
-            <div class="product-info">
-              <div class="name">Scream Pants</div>
-              <div class="price">$15,990.00</div>
-            </div>
-          </a>
-          <a class="product" href="#">
-            <div class="product-image">
-              <img src="/images/bermuda.jpg" alt="">
-            </div>
-            <div class="product-info">
-              <div class="name">Bermuda Goth</div>
-              <div class="price">$9,990.00</div>
-            </div>
-          </a>
-          <a class="product" href="#">
-            <div class="product-image">
-              <img src="/images/puas.jpg" alt="">
-            </div>
-            <div class="product-info">
-              <div class="name">Spikes Pants</div>
-              <div class="price">$15,990.00</div>
-            </div>
-          </a>
-          <a class="product" href="#">
-            <div class="product-image">
-              <img src="/images/sweater2.jpg" alt="">
-            </div>
-            <div class="product-info">
-              <div class="name">Line Sweater</div>
-              <div class="price">$14,000.00</div>
-            </div>
-          </a>
-          <a class="product" href="#">
-            <div class="product-image">
-              <img src="/images/sweater.jpg" alt="">
-            </div>
-            <div class="product-info">
-              <div class="name">Skull Sweater</div>
-              <div class="price">$14,000.00</div>
-            </div>
-          </a>
-          <a class="product" href="#">
-            <div class="product-image">
-              <img src="images/reme.jpg" alt="">
-            </div>
-            <div class="product-info">
-              <div class="name">Bad T-Shirt</div>
-              <div class="price">$8,990.00</div>
-            </div>
-          </a>
+          <!--  Aqui se crean los productos dinamicamente -->
+
+
+
+          <% products.forEach(product=> { %>
+
+            <a class="product" href="/products/product-detail/<%= product.id %>">
+              <div class="product-image">
+                <img src="/images/<%= product.image %>" alt="">
+              </div>
+              <div class="product-info">
+                <div class="name">
+                  <%= product.name %>
+                </div>
+                <div class="price">
+                  <%= product.price %>
+                </div>
+              </div>
+            </a>
+
+
+            <% }) %>
+
+              <!--  Aqui se crean los productos dinamicamente -->
+
+
         </div>
         <div class="paginator">
           Un paginador

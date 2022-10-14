@@ -1,10 +1,20 @@
+const fs = require("fs");
+const path = require("path");
+
+const productsFilePath = path.join(__dirname, "../data/products.json");
+const products = JSON.parse(fs.readFileSync(productsFilePath, "utf-8"));
+
+const toThousand = (n) => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+
 const controller = {
   productCart: (req, res) => {
     res.render("products/product-cart");
   },
 
   productDet: (req, res) => {
-    res.render("products/product-detail");
+    let { id } = req.params;
+    let product = products.find((product) => product.id == id);
+    res.render("products/product-detail", { product, toThousand });
   },
 
   productCre: (req, res) => {
@@ -12,18 +22,10 @@ const controller = {
   },
 
   productEdi: (req, res) => {
-    res.render("products/product-edition");
+    let { id } = req.params;
+    let product = products.find((product) => product.id == id);
+    res.render("products/product-edition", { product, toThousand });
   },
 };
 
 module.exports = controller;
-
-/*
-app.get("/productCar", (req, res) => {
-  res.sendFile(path.resolve("./src/views/productCar.html"));
-});
-
-app.get("/productDet", (req, res) => {
-  res.sendFile(path.resolve("./src/views/productDet.html"));
-});
-*/
