@@ -12,3 +12,13 @@ Notamos grandes capacidades de diseño y estetica en Micaela y Yediz.
 Notamos grandes capacidades de codigo en Juan y Fernando.
 Debemos reunirnos mas.
 Debemos compartir mas los avances y los errores que encontremos.
+
+Retro Sprint3:
+Debemos reunirnos mucho mas, en este Sprint, por diferentes motivos no pudimos juntrnos tanto para poner ideas en comun.
+Debemos compartir mas los avances y los errores que encontremos.
+
+Retro Sprint4:
+No pudimos reunirnos y han ido quedanod "vacios" sin completar de las entrega anteriores.
+Nos va mucho mejor y el producto queda mejor cuando logramos reunirnos.
+Cuando trabajamos cada uno en su codigo y no ponemos la informacion en comun nos vamos estancando al momento de avanzar en el codigo.
+
