@@ -19,33 +19,89 @@
     <main>
       <div class="product">
         <div class="gallery">
-          <img src="/images/f4de964710087fc0e9f0ddf5f0c4d5e5.jpg" alt="">
+          <img src="/images/<%=product.image%>" alt="">
         </div>
         <div class="info">
-          <h1 class="title">Remera oversize</h1>
+          <h1 class="title">
+            <%=product.name%>
+          </h1>
+
           <div class="description">
-            Diseños de autor/
-            tela: jersey rallado
+            <%=product.description%>
           </div>
 
           <div class="price">
-            $4.599,00
+            <%=product.price%>
           </div>
+
+
+          <!--  Aqui se cargan las categorias dinamicamente -->
           <div class="sizes">
-            <h3>Tallas:</h3>
-            <div class="selector">
-              <select name="" id="">
-                <option value="">XS</option>
-                <option value="">S</option>
-                <option value="">M</option>
-                <option value="">L</option>
-                <option value="">XL</option>
-                <option value="">2XL</option>
-                <option value="">3XL</option>
-                <option value="">4XL</option>
-              </select>
-            </div>
+            <h3>Categoria:</h3>
+            <select name="category" id="category">
+
+              <% categories.forEach(category=> { %>
+                <% if (category.categoriaId==product.category ) { %>
+                  <option value="<%= category.categoriaId %>" selected>
+                    <%= category.nombre %>
+                  </option>
+                  <% } %>
+
+                    <option value="<%= category.categoriaId %>">
+                      <%= category.nombre %>
+                    </option>
+                    <% }) %>
+            </select>
           </div>
+
+          <!--  Aqui se cargan las categorias dinamicamente -->
+          <div class="sizes">
+            <h3>Talla:</h3>
+            <select name="size" id="size">
+
+              <% sizes.forEach(size=> { %>
+                <% if (size.sizeId==product.size ) { %>
+                  <option value="<%= size.sizeId %>" selected>
+                    <%= size.nombre %>
+                  </option>
+                  <% } %>
+
+                    <option value="<%= size.sizeId %>">
+                      <%= size.nombre %>
+                    </option>
+                    <% }) %>
+            </select>
+          </div>
+          <!--  Aqui se crean los categorias dinamicamente -->
+
+
+          <!--  Aqui se cargan los colores dinamicamente -->
+          <div class="sizes">
+            <h3>Color:</h3>
+
+            <select name="color" id="color">
+
+              <% colores.forEach(color=> { %>
+                <% if (color.colorId==product.color ) { %>
+                  <option value="<%= color.colorId %>" selected>
+                    <%= color.nombre %>
+                  </option>
+                  <% } %>
+
+                    <option value="<%= color.colorId %>">
+                      <%= color.nombre %>
+                    </option>
+                    <% }) %>
+            </select>
+          </div>
+          <!--  Aqui se crean los colores dinamicamente -->
+
+
+
+
+
+
+
           <div class="units">
             <h3>Unidades:</h3>
             <div class="unit-container">
@@ -62,20 +118,30 @@
               Añadir al carrito
             </button>
 
-            <a href="/products/product-edition/<%= product.id %>" class="action-button edit">EDITAR PRODUCTO</a>
+            <div class="botones">
+              <button class="addcart">
+                <a href="/products/product-edition/<%= product.id %>" class="action-button edit">EDITAR PRODUCTO</a>
+              </button>
 
+              <div class="botones">
+                <button class="addcart">
+                  <a href="/products/product-edition/<%= product.id %>" class="action-button edit">ELIMINAR PRODUCTO</a>
+
+                </button>
+
+
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="other">
-        <h3>Otros productos</h3>
-        <div class="items">
-          <div class="item">
+          <div class="other">
+            <h3>Otros productos</h3>
+            <div class="items">
+              <div class="item">
+              </div>
+              <div class="item">TyP</div>
+              <div class="item">TyP</div>
+            </div>
           </div>
-          <div class="item">TyP</div>
-          <div class="item">TyP</div>
-        </div>
-      </div>
     </main>
 
     <!-- se obtiene el footer de la carpeta Partials -->

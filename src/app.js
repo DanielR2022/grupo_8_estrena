@@ -5,10 +5,11 @@ const app = express();
 const mainRouter = require("./routers/mainRouter");
 const productRouter = require("./routers/productRouter");
 const userRouter = require("./routers/userRouter");
+const methodOverride = require("method-override"); // Pasar poder usar los métodos PUT y DELETE
 
 app.use(express.json());
-
-//app.use(methodOverride("_method")); // Pasar poder pisar el method="POST" en el formulario por PUT y DELETE
+app.use(express.urlencoded({ extended: false }));
+app.use(methodOverride("_method")); // Pasar poder pisar el method="POST" en el formulario por PUT y DELETE
 
 //declaro los valores estaticos , img, css
 app.use(express.static(path.join(__dirname, "../public")));
