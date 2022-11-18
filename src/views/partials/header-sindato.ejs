@@ -24,22 +24,11 @@
         <a href="/products/product-cart">
           <img src="https://cdn-icons-png.flaticon.com/512/1413/1413908.png" alt="">
         </a>
-        <div class="user">
-          <% if (typeof data !='undefined' ) { %>
-
-            <p> Usuario: <%= data.firstName %>
-            </p>
-            <img src="/images/users/<%= data.image %>" alt="">
-
-
-            <% } else { %>
-              <a href="/users/user-login">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/OOjs_UI_icon_userAvatar.svg/2048px-OOjs_UI_icon_userAvatar.svg.png"
-                  alt="">
-              </a>
-              <% } %>
-        </div>
+        <a href="/users/user-login">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/OOjs_UI_icon_userAvatar.svg/2048px-OOjs_UI_icon_userAvatar.svg.png"
+            alt="">
+        </a>
       </div>
     </div>
   </div>

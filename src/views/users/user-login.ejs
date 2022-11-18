@@ -9,19 +9,32 @@
     <!-- se obtiene el header de la carpeta  Partials -->
     <%- include("../partials/header") %>
 
-
       <main>
-        <form action="/login" method="post">
+        <form method="POST" action="/users/user-login">
           <div class="register-container">
 
             <h1 class="title">Login</h1>
             <div class="inputs">
               <label for="mail">E-mail</label>
               <input type="email" name="mail" id="mail" placeholder="Mail" required>
+              <% if (locals.errors && errors.mail) { %>
+                <div>
+                  <%=errors.mail.msg %>
+                </div>
+                <% } %>
             </div>
             <div class="inputs">
               <label for="password">Contraseña</label>
               <input type="password" name="password" id="password" placeholder="Contraseña" required>
+              <% if (locals.errors && errors.password) { %>
+                <div>
+                  <%=errors.password.msg %>
+                </div>
+                <% } %>
+            </div>
+            <div class="inputs">
+              <label for="recordar_usuario">Recordarme</label>
+              <input type="checkbox" name="recordar_usuario" id="recordar_usuario">
             </div>
             <div class="account-buttons">
               <button type="reset" class="account res">Cancelar</button>

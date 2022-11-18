@@ -11,21 +11,21 @@
  },
  {
   "id": 2,
-  "name": "Killer Jacket",
-  "description": "Hermosa Chaqueta",
-  "category": "1",
+  "name": "Killer Jacket  ",
+  "description": "Hermosa Chaqueta ",
+  "category": "2",
   "size": "3",
-  "color": "Black",
+  "color": "1",
   "price": "$35000",
   "image": "campera-cuero.jpg"
  },
  {
   "id": 3,
-  "name": "Sky Puff",
+  "name": "Sky Puff ",
   "description": "Hermosa Chaqueta",
   "category": "1",
   "size": "1",
-  "color": "White",
+  "color": "1",
   "price": "$22000",
   "image": "campera-puff2.jpg"
  },
